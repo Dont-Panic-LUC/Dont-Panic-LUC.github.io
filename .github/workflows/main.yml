@@ -23,4 +23,4 @@ jobs:
       with:
         ACCESS_TOKEN: ${{ secrets.pages_secret }}
         BRANCH: gh-pages
-        FOLDER: __sapper__/export/dontpanic.github.io
+        FOLDER: __sapper__/export
