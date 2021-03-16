@@ -36,13 +36,13 @@ export default {
         },
       }),
       svelte({
+        extensions: ['.svelte', '.svx'],
         preprocess: sveltePreprocess({ sourceMap: dev }),
         compilerOptions: {
           dev,
           hydratable: true,
         },
-        extensions: ['.svelte', '.svx'],
-        preprocess: mdsvex(config),
+        // preprocess: mdsvex(),
       }),
       url({
         sourceDir: path.resolve(__dirname, 'src/node_modules/images'),
@@ -101,14 +101,15 @@ export default {
         },
       }),
       svelte({
-        preprocess: mdsvex(config),
+        extensions: ['.svelte', '.svx'],
+        preprocess: sveltePreprocess({ sourceMap: dev }),
         compilerOptions: {
           dev,
           generate: 'ssr',
           hydratable: true,
         },
         emitCss: false,
-        extensions: ['.svelte', '.svx'],
+        // preprocess: mdsvex(),
       }),
       url({
         sourceDir: path.resolve(__dirname, 'src/node_modules/images'),
