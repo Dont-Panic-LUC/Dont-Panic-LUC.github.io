@@ -2,7 +2,8 @@
   import { fade } from 'svelte/transition';
   import IoIosSunny from 'svelte-icons/io/IoIosSunny.svelte';
   import IoIosMoon from 'svelte-icons/io/IoIosMoon.svelte';
-
+  import { createEventDispatcher } from 'svelte';
+  const dispatch = createEventDispatcher();
   type ColorMode = 'light' | 'dark';
   let theme: ColorMode = 'dark';
 
@@ -16,12 +17,18 @@
     document.body.classList.toggle('theme--light', true);
     document.body.classList.toggle('theme--dark', false);
     theme = 'light';
+    dispatch('message', {
+      theme: theme
+    })
   };
 
   const setDarkTheme = () => {
     document.body.classList.toggle('theme--light', false);
     document.body.classList.toggle('theme--dark', true);
     theme = 'dark';
+    dispatch('message', {
+      theme: theme
+    })
   };
 
   // ts-lint was freaking out, so this "_" argument is just to make that go away
