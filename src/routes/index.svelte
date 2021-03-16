@@ -1,5 +1,4 @@
 <script>
-	import successkid from 'images/successkid.jpg';
 </script>
 
 <style>
@@ -24,10 +23,6 @@
 		width: 100%;
 		max-width: 400px;
 		margin: 0 0 1em 0;
-	}
-
-	p {
-		margin: 1em auto;
 	}
 
 	@media (min-width: 480px) {
