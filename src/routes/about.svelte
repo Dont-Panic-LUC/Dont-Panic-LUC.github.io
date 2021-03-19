@@ -18,7 +18,7 @@
   larger Chicago coding community, and finally through our Discord channel,
   where we discuss anything and everything.
 </p>
-
+<img src="https://dontpanic.cs.luc.edu/static/media/google-event.6159e423.jpg" alt="pic of us">
 <style>
   h1 {
     text-align: center;
@@ -26,5 +26,10 @@
   }
   p {
     font-size: 1.2em;
+  }
+  img {
+    width: 500px;
+    margin: 0 auto;
+    justify-content: center;
   }
 </style>

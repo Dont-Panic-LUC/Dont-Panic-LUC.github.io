@@ -1,5 +1,6 @@
 <script>
   import Teammate from '../components/Teammate.svelte';
+  import TeamateApply from "../components/TeamateApply.svelte";
 </script>
 
 <svelte:head>
@@ -7,6 +8,7 @@
 </svelte:head>
 
 <div>
+  <TeamateApply/>
   <Teammate
     src="https://dontpanic.cs.luc.edu/static/media/Tien.027cbc19.jpg"
     role="President"

@@ -1,16 +1,20 @@
+<script>
+  import DiscordLink from "../components/DiscordLink.svelte";
+</script>
 <svelte:head>
   <title>Contact</title>
 </svelte:head>
-<h1>About Us</h1>
+<h1>Contact Us</h1>
 
 <p>
   Are you looking for a place with CS folks that like to geek out, learn some
   CS, make friends, and be in a judgment free zone and a helpful environment?
 </p>
 <p>
-  Look no further. Just fill in the form below and we'll get back to you ASAP.
+  Look no further. Just join our discord below, or <a href="mailto:dontpanic.luc@gmail.com">email us</a> and we'll get back to you ASAP.
 </p>
 
+<DiscordLink/>
 <style>
   h1 {
     text-align: center;
