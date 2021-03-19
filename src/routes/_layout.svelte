@@ -4,19 +4,24 @@
   export let segment: string;
 </script>
 
-<Nav {segment} />
+<div>
+  <Nav {segment} />
 
-<main>
-  <slot />
-</main>
+  <main>
+    <slot />
+  </main>
+</div>
 
 <style>
+  div {
+    background: var(--background);
+    min-height: 100vh;
+  }
+
   main {
     position: relative;
     max-width: 56em;
-    background: var(--background);
-    padding: 2em;
     margin: 0 auto;
-    box-sizing: border-box;
+    padding: 2em;
   }
 </style>
