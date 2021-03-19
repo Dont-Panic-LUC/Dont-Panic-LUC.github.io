@@ -20,13 +20,13 @@
 <style>
   img {
     width: 100%;
-    height: 11.25em;
+    height: 15.25em;
     object-fit: cover;
   }
 
   .card {
     width: 100%;
-    height: 16em;
+    height: 20em;
     overflow: hidden;
     border-radius: 0.5em;
 
