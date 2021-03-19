@@ -11,6 +11,7 @@ import typescript from '@rollup/plugin-typescript';
 import config from 'sapper/config/rollup.js';
 import pkg from './package.json';
 import { mdsvex } from 'mdsvex';
+const { preprocess } = require('./svelte.config');
 
 const mode = process.env.NODE_ENV;
 const dev = mode === 'development';
@@ -37,7 +38,7 @@ export default {
       }),
       svelte({
         extensions: ['.svelte', '.svx'],
-        preprocess: sveltePreprocess({ sourceMap: dev }),
+        preprocess,
         compilerOptions: {
           dev,
           hydratable: true,
@@ -102,7 +103,7 @@ export default {
       }),
       svelte({
         extensions: ['.svelte', '.svx'],
-        preprocess: sveltePreprocess({ sourceMap: dev }),
+        preprocess,
         compilerOptions: {
           dev,
           generate: 'ssr',
