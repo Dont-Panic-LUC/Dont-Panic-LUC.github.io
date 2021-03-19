@@ -14,21 +14,21 @@
     localStorage.getItem('theme') as ColorMode | undefined;
 
   const setLightTheme = () => {
-    document.body.classList.toggle('theme--light', true);
-    document.body.classList.toggle('theme--dark', false);
+    document.body.classList.toggle('light', true);
+    document.body.classList.toggle('dark', false);
     theme = 'light';
     dispatch('message', {
-      theme: theme
-    })
+      theme: theme,
+    });
   };
 
   const setDarkTheme = () => {
-    document.body.classList.toggle('theme--light', false);
-    document.body.classList.toggle('theme--dark', true);
+    document.body.classList.toggle('light', false);
+    document.body.classList.toggle('dark', true);
     theme = 'dark';
     dispatch('message', {
-      theme: theme
-    })
+      theme: theme,
+    });
   };
 
   // ts-lint was freaking out, so this "_" argument is just to make that go away
@@ -37,8 +37,8 @@
 
     if (storedTheme === 'light') setLightTheme();
     else if (storedTheme === 'dark') setDarkTheme();
-    else if (document.body.classList.contains('theme--light')) setLightTheme();
-    else if (document.body.classList.contains('theme--light')) setDarkTheme();
+    else if (document.body.classList.contains('light')) setLightTheme();
+    else if (document.body.classList.contains('light')) setDarkTheme();
     else if (getPrefersDarkMode()) setDarkTheme();
     else setLightTheme();
   };
@@ -50,8 +50,11 @@
       setLightTheme();
     }
 
-    theme = document.body.classList.contains('theme--light') ? 'light' : 'dark';
+    theme = document.body.classList.contains('light') ? 'light' : 'dark';
     localStorage.setItem('theme', theme);
+
+    if (!document.body.classList.contains('bg-transition'))
+      document.body.classList.add('bg-transition');
   };
 </script>
 
@@ -81,12 +84,12 @@
     cursor: pointer;
   }
   button:hover {
-    background: var(--background-hover);
+    background: var(--bg-hover);
   }
   button > div {
     height: 1.25rem;
     width: 1.25rem;
-    color: var(--color);
+    color: var(--text);
   }
 
   @media screen and (max-width: 600px) {

@@ -52,7 +52,7 @@
   div {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap: 2em;
+    gap: 1em;
     place-items: center;
   }
 </style>
