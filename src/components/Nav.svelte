@@ -124,4 +124,18 @@
     width: 1.5em;
     margin-left: 1em;
   }
+
+  @media screen and (max-width: 600px) {
+    a.link {
+      font-size: 0.9em;
+      padding: 1em 0.5em;
+      margin: 0 0.125em;
+    }
+
+    img {
+      height: 1.25em;
+      width: 1.25em;
+      margin-left: 0.5em;
+    }
+  }
 </style>
