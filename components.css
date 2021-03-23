@@ -1,0 +1,24 @@
+code {
+  font-family: menlo, inconsolata, monospace;
+  font-size: calc(1em - 2px);
+  color: #555;
+  background-color: #f0f0f0;
+  padding: 0.2em 0.4em;
+  border-radius: 2px;
+}
+
+button,
+.button {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.button--secondary {
+  color: var(--secondary-text);
+  border: 3px solid var(--secondary);
+  padding: 0.5em 1em;
+}
+.button--secondary:hover {
+  background: var(--secondary);
+  color: var(--text);
+}

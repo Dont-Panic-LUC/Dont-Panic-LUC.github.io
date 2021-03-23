@@ -1,0 +1,1 @@
+import{S as t,i as s,s as e,q as a,d as n,n as c}from"./client.c0f18805.js";function o(t){return{c(){this.h()},l(t){a('[data-svelte="svelte-2xcn1u"]',document.head).forEach(n),this.h()},h(){document.title="Events"},m:c,p:c,i:c,o:c,d:c}}export default class extends t{constructor(t){super(),s(this,t,null,o,e,{})}}

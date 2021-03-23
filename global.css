@@ -1,4 +1,5 @@
 @import './normalize.css';
+@import './components.css';
 
 /* ===== ROOT COLORS ===== */
 :root {
@@ -31,7 +32,9 @@
   --bg-item-outline: var(--gray-800);
   --text: var(--gray-200);
   --primary: var(--red-light);
+  --primary-text: var(--gray-50);
   --secondary: var(--gold-light);
+  --secondary-text: var(--gray-50);
 }
 
 /* ===== LIGHT MODE ===== */
@@ -42,7 +45,9 @@
   --bg-item-outline: var(--gray-200);
   --text: var(--gray-900);
   --primary: var(--red-dark);
+  --primary-text: var(--gray-200);
   --secondary: var(--gold-dark);
+  --secondary-text: var(--gray-200);
 }
 
 body {
@@ -57,15 +62,6 @@ body {
 
 .bg-transition {
   transition: background 350ms ease-in-out, color 350ms ease-in-out;
-}
-
-code {
-  font-family: menlo, inconsolata, monospace;
-  font-size: calc(1em - 2px);
-  color: #555;
-  background-color: #f0f0f0;
-  padding: 0.2em 0.4em;
-  border-radius: 2px;
 }
 
 @media (min-width: 400px) {
