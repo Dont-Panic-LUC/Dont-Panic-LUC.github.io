@@ -36,6 +36,7 @@
   --primary-text: var(--gray-50);
   --secondary: var(--gold-light);
   --secondary-text: var(--gray-900);
+  --image-opacity: 0.85;
 }
 
 /* ===== LIGHT MODE ===== */
@@ -50,6 +51,7 @@
   --primary-text: var(--gray-200);
   --secondary: var(--gold-dark);
   --secondary-text: var(--gray-900);
+  --image-opacity: 1;
 }
 
 body {

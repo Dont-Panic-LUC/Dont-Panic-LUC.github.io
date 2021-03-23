@@ -11,6 +11,7 @@ button,
 .button {
   color: var(--text);
   text-decoration: none;
+  font-weight: 500;
 }
 
 .button--secondary {
@@ -22,4 +23,19 @@ button,
 .button--secondary:hover {
   background: var(--secondary);
   color: var(--secondary-text);
+}
+
+.button--primary {
+  color: var(--text);
+  border: 3px solid var(--primary);
+  padding: 0.5em 1em;
+}
+
+.button--primary:hover {
+  background: var(--primary);
+  color: var(--primary-text);
+}
+
+img {
+  opacity: var(--image-opacity);
 }
