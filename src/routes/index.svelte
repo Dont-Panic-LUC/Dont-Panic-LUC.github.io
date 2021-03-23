@@ -50,7 +50,7 @@
   }
 
   #mission {
-    background: var(--primary);
+    background: var(--primary-muted);
     color: var(--primary-text);
 
     margin-left: calc(-100vw / 2 + 56em / 2);

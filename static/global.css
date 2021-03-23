@@ -32,9 +32,10 @@
   --bg-item-outline: var(--gray-800);
   --text: var(--gray-200);
   --primary: var(--red-light);
+  --primary-muted: var(--red-dark);
   --primary-text: var(--gray-50);
   --secondary: var(--gold-light);
-  --secondary-text: var(--gray-50);
+  --secondary-text: var(--gray-900);
 }
 
 /* ===== LIGHT MODE ===== */
@@ -45,9 +46,10 @@
   --bg-item-outline: var(--gray-200);
   --text: var(--gray-900);
   --primary: var(--red-dark);
+  --primary-muted: var(--red-dark);
   --primary-text: var(--gray-200);
   --secondary: var(--gold-dark);
-  --secondary-text: var(--gray-200);
+  --secondary-text: var(--gray-900);
 }
 
 body {
