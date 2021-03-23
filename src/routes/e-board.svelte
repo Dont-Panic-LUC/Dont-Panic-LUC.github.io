@@ -1,14 +1,14 @@
 <script>
   import Teammate from '../components/Teammate.svelte';
-  import TeamateApply from "../components/TeamateApply.svelte";
+  import TeamateApply from '../components/TeamateApply.svelte';
 </script>
 
 <svelte:head>
   <title>E-Board</title>
 </svelte:head>
 
-<div>
-  <TeamateApply/>
+<section>
+  <TeamateApply />
   <Teammate
     src="https://dontpanic.cs.luc.edu/static/media/Tien.027cbc19.jpg"
     role="President"
@@ -48,10 +48,11 @@
     role="CAN and ACM rep"
     name="Iqra Rehman"
   />
-</div>
+</section>
 
 <style>
-  div {
+  section {
+    padding: 2em;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     gap: 1em;

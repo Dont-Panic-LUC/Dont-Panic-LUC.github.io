@@ -1,4 +1,22 @@
-<script>
+<script context="module" lang="ts">
+  export function preload() {
+    return this.fetch(`events.json`)
+      .then((r: { json: () => any }) => r.json())
+      .then((events: { slug: string; title: string; html: any }[]) => {
+        return { events };
+      });
+  }
+</script>
+
+<script lang="ts">
+  import EventsRoll from '../components/EventsRoll.svelte';
+
+  export let events: {
+    title: string;
+    image: string;
+    date: string;
+    html: any;
+  }[];
 </script>
 
 <svelte:head>
@@ -21,9 +39,13 @@
   <a href="about" class="button button--secondary">Learn more →</a>
 </div>
 
+<div id="events">
+  <EventsRoll {events} />
+  <a href="events" class="button button--primary">View all events →</a>
+</div>
+
 <style>
   div {
-    /* flex: 1; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -87,5 +109,15 @@
       max-width: 32em;
       font-size: 1.75em;
     }
+  }
+
+  #events {
+    padding: 2em 2em;
+    text-align: left;
+    margin-bottom: 4em;
+  }
+
+  #events a {
+    margin-top: 2em;
   }
 </style>
