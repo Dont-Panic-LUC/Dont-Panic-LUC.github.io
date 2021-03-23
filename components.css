@@ -14,11 +14,12 @@ button,
 }
 
 .button--secondary {
-  color: var(--secondary-text);
+  color: var(--primary-text);
   border: 3px solid var(--secondary);
   padding: 0.5em 1em;
 }
+
 .button--secondary:hover {
   background: var(--secondary);
-  color: var(--text);
+  color: var(--secondary-text);
 }
