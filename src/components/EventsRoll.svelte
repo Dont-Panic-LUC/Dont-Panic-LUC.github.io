@@ -58,8 +58,13 @@
     color: var(--text);
 
     border-radius: 4px;
+    margin-bottom: 1em;
 
     box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.18);
+  }
+
+  .card:last-of-type {
+    margin-bottom: 0em;
   }
 
   @media screen and (max-width: 45em) {
