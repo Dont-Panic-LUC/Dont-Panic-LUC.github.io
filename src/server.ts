@@ -10,7 +10,7 @@ polka() // You can also use Express
   .use(
     'home', // For GitHub pages
     compression({ threshold: 0 }),
-    sirv('static', { dev }),
+    sirv('Dont-Panic-LUC.github.io', { dev }),
     sapper.middleware()
   )
   .listen(PORT, (err) => {
