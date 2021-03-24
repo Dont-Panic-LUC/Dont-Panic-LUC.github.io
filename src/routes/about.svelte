@@ -39,10 +39,17 @@
   img {
     display: block;
     margin: 0 auto;
+    max-width: 400px;
+
   }
   @media screen and (max-width: 400px)  { /*phones in general */
     img {
       width: 200px;
+    }
+  }
+  @media screen and (min-width: 400px)  { /*tablets and computers in general */
+    img {
+      width: 300px;
     }
   }
   @media screen and (min-width: 500px)  { /*tablets and computers in general */
