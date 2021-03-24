@@ -12,7 +12,6 @@
   export let isPast: boolean = false;
 
   const today = new Date().toISOString();
-  console.log(today);
 
   const sortedEvents = events
     .filter((e) => (isPast ? e.date < today : e.date >= today))
