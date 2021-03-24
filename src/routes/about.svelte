@@ -20,7 +20,7 @@
     where we discuss anything and everything.
   </p>
   <img
-    src="https://dontpanic.cs.luc.edu/static/media/google-event.6159e423.jpg"
+    src="content/miscImage/googlePassport.jpg"
     alt="pic of us"
   />
 </section>
@@ -37,8 +37,18 @@
     font-size: 1.2em;
   }
   img {
-    width: 500px;
+    display: block;
     margin: 0 auto;
-    justify-content: center;
   }
+  @media screen and (max-width: 400px)  { /*phones in general */
+    img {
+      width: 200px;
+    }
+  }
+  @media screen and (min-width: 500px)  { /*tablets and computers in general */
+    img {
+      width: 400px;
+    }
+  }
+
 </style>

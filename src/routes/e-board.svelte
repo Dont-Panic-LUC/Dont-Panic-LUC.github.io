@@ -10,41 +10,41 @@
 <section>
   <TeamateApply />
   <Teammate
-    src="https://dontpanic.cs.luc.edu/static/media/Tien.027cbc19.jpg"
+    src={'content/eBoard/tien.jpg'}
     role="President"
     name="Tien VoNguyen"
   />
   <Teammate
-    src="https://dontpanic.cs.luc.edu/static/media/Alex.8c3b843c.jpg"
+    src="content/eBoard/alex.jpg"
     role="Vice President"
     name="Alex Rose"
     position="50% 60%"
   />
   <Teammate
-    src="https://dontpanic.cs.luc.edu/static/media/Makenna.82a4db6a.jpg"
+    src="content/eBoard/makenna.jpg"
     role="Treasurer"
     name="Makenna Walsh"
     position="50% 100%"
   />
-  <!-- <Teammate
-    src="https://dontpanic.cs.luc.edu/static/media/Rayyan.f8724987.JPG"
-    role="Lead Website Devoloper"
-    name="Mohammed Rayyan Shaji"
-  /> -->
+<!--  <Teammate-->
+<!--    src="content/eBoard/Rayyan.jpg"-->
+<!--    role="Lead Website Devoloper"-->
+<!--    name="Mohammed Rayyan Shaji"-->
+<!--  />-->
   <Teammate
-    src="https://dontpanic.cs.luc.edu/static/media/henry.a2858651.jpg"
+    src="content/eBoard/henry.jpg"
     role="Events Chair"
     name="Henry Fellerhoff"
     position="50% 55%"
   />
   <Teammate
-    src="https://dontpanic.cs.luc.edu/static/media/Anran.7bdca682.png"
+    src="content/eBoard/anran.png"
     role="Head of Recruitment"
     name="Anran Wang"
     position="50% 45%"
   />
   <Teammate
-    src="https://dontpanic.cs.luc.edu/static/media/iqra.3cf2f451.jpg"
+    src="content/eBoard/iqra.jpg"
     role="CAN and ACM rep"
     name="Iqra Rehman"
   />
