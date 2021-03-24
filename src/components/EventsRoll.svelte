@@ -22,10 +22,6 @@
     });
 </script>
 
-<svelte:head>
-  <title>Events</title>
-</svelte:head>
-
 <div id="container">
   <h1>{title}</h1>
   <div class="card-container">

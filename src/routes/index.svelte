@@ -20,7 +20,11 @@
 </script>
 
 <svelte:head>
-  <title>Don't Panic</title>
+  <title>Don't Panic - Loyola University Chicago's Coding Community</title>
+  <meta
+    name="description"
+    content="Founded in 2018, DON'T PANIC! aims to connect students from all disciplines in the Loyola coding community."
+  />
 </svelte:head>
 
 <div id="hero">
