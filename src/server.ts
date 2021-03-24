@@ -8,7 +8,7 @@ const dev = NODE_ENV === 'development';
 
 polka() // You can also use Express
   .use(
-    'portfolio', // For GitHub pages
+    'home', // For GitHub pages
     compression({ threshold: 0 }),
     sirv('static', { dev }),
     sapper.middleware()
