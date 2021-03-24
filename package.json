@@ -1,11 +1,11 @@
 {
-  "name": "portfolio",
-  "description": "Portfolio for Don't Panic! CS",
+  "name": "dont-panic-luc",
+  "description": "Website for Don't Panic! CS",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev --ext '.svelte .svx'",
     "build": "sapper build --legacy --ext '.svelte .svx'",
-    "export": "sapper export --basepath portfolio --legacy --ext '.svelte .svx'",
+    "export": "sapper export --basepath home --legacy --ext '.svelte .svx'",
     "start": "node __sapper__/build",
     "validate": "svelte-check --ignore src/node_modules/@sapper"
   },
