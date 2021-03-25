@@ -26,16 +26,18 @@
     name="Makenna Walsh"
     position="50% 100%"
   />
-<!--  <Teammate-->
-<!--    src="content/eBoard/Rayyan.jpg"-->
-<!--    role="Lead Website Devoloper"-->
-<!--    name="Mohammed Rayyan Shaji"-->
-<!--  />-->
+  <!--  <Teammate-->
+  <!--    src="content/eBoard/Rayyan.jpg"-->
+  <!--    role="Lead Website Devoloper"-->
+  <!--    name="Mohammed Rayyan Shaji"-->
+  <!--  />-->
   <Teammate
     src="content/eBoard/henry.jpg"
     role="Events Chair"
     name="Henry Fellerhoff"
-    position="50% 55%"
+    position="50% 65%"
+    link="https://www.henryfellerhoff.com"
+    linkTitle="Portfolio →"
   />
   <Teammate
     src="content/eBoard/anran.png"
