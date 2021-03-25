@@ -8,23 +8,35 @@
 </svelte:head>
 
 <section>
-  <TeamateApply />
+  <Teammate
+    src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fvignette1.wikia.nocookie.net%2Fcriminal-case-grimsborough%2Fimages%2F2%2F26%2FUnknown_Character.png%2Frevision%2Flatest%3Fcb%3D20141106142941&f=1&nofb=1"
+    role="Head of Applying"
+    name="You!"
+    link="https://docs.google.com/forms/d/e/1FAIpQLSdEV5soG_fWijQtK8RBF5-23EPHdIfYOqzjZLnDAc-PQVnkoA/viewform"
+    linkTitle="Click here to apply →"
+  />
   <Teammate
     src={'content/eBoard/tien.jpg'}
     role="President"
     name="Tien VoNguyen"
+    link="https://www.linkedin.com/in/%E2%9C%A7-tien-v-358b09122/"
+    linkTitle="LinkedIn →"
   />
   <Teammate
     src="content/eBoard/alex.jpg"
     role="Vice President"
     name="Alex Rose"
     position="50% 60%"
+    link="https://www.linkedin.com/in/alexander-c-rose/"
+    linkTitle="LinkedIn →"
   />
   <Teammate
     src="content/eBoard/makenna.jpg"
     role="Treasurer"
     name="Makenna Walsh"
     position="50% 100%"
+    link="https://www.linkedin.com/in/makenna-walsh-b54b14127/"
+    linkTitle="LinkedIn →"
   />
   <!--  <Teammate-->
   <!--    src="content/eBoard/Rayyan.jpg"-->
@@ -44,11 +56,15 @@
     role="Head of Recruitment"
     name="Anran Wang"
     position="50% 45%"
+    link="https://www.linkedin.com/in/anranwang4/"
+    linkTitle="LinkedIn →"
   />
   <Teammate
     src="content/eBoard/iqra.jpg"
     role="CAN and ACM rep"
     name="Iqra Rehman"
+    link="https://www.linkedin.com/in/iqra-rehman-b4225b184/"
+    linkTitle="LinkedIn →"
   />
 </section>
 
