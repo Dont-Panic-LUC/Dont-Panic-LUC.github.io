@@ -17,22 +17,6 @@
     date: string;
     html: any;
   }[];
-
-  const today = new Date().toISOString();
-  console.log(today);
-
-  const sortedUpcomingEvents = events
-    .filter((e) => e.date >= today)
-    .sort((a, b) => {
-      if (a.date < b.date) return 1;
-      else return -1;
-    });
-  const sortedPastEvents = events
-    .filter((e) => e.date < today)
-    .sort((a, b) => {
-      if (a.date < b.date) return 1;
-      else return -1;
-    });
 </script>
 
 <svelte:head>

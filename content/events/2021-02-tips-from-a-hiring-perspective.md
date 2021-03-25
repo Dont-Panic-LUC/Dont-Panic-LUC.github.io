@@ -1,5 +1,5 @@
 ---
-title: 'How to stand out amongst the crowd: creating a portfolio.'
+title: 'Get Seen: Tips From a Hiring Perspective'
 date: 2021-02-17T23:00:00.000Z
 image: 2021-02-tips-from-a-hiring-perspective.jpg
 ---

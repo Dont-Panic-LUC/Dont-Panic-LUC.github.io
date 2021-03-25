@@ -26,12 +26,14 @@
   <div class="card-container">
     {#each sortedEvents as e}
       <article class="card">
-        <div class="card-image-container">
-          <img
-            src={`content/events/${e.image}`}
-            alt={`Banner for the event ${e.title}`}
-          />
-        </div>
+        {#if e.image}
+          <div class="card-image-container">
+            <img
+              src={`content/events/${e.image}`}
+              alt={`Banner for the event ${e.title}`}
+            />
+          </div>
+        {/if}
         <div class="card-content">
           <div class="card-top">
             <p>{dayjs(e.date).format('MMM DD, hh:mma')}</p>
