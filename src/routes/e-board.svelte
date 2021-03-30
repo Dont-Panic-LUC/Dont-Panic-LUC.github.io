@@ -27,8 +27,8 @@
     role="Vice President"
     name="Alex Rose"
     position="50% 60%"
-    link="https://www.linkedin.com/in/alexander-c-rose/"
-    linkTitle="LinkedIn →"
+    link="https://alex-rose.vercel.app/"
+    linkTitle="Portfolio →"
   />
   <Teammate
     src="content/eBoard/makenna.jpg"
