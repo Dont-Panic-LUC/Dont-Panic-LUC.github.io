@@ -1,6 +1,6 @@
 #  Dont-Panic-LUC.github.io
 
-This is Don't Panic's source code for its new and official website. See the link on the sidebar for the live site. 
+This is Don't Panic's source code for its new and official website. See the link on the sidebar for the live site.
 
 ## About the code
 
@@ -14,3 +14,7 @@ The structure is based off the default [Sapper Template](https://github.com/svel
 
 1. `$ npm install`
 2. `$ npm dev`
+
+## Credits 
+
+Please check out the developer's, [Henry Fellerhoff](https://www.henryfellerhoff.com/) and [Alex Roses](https://alex-rose.vercel.app/), other work! 
