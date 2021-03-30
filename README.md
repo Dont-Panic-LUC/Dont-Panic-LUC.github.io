@@ -17,4 +17,4 @@ The structure is based off the default [Sapper Template](https://github.com/svel
 
 ## Credits 
 
-Please check out the developer's, [Henry Fellerhoff](https://www.henryfellerhoff.com/) and [Alex Roses](https://alex-rose.vercel.app/), other work! 
+Please check out the developer's, [Henry Fellerhoff](https://www.henryfellerhoff.com/) and [Alex Rose](https://alex-rose.vercel.app/), other work! 

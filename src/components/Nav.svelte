@@ -2,6 +2,7 @@
   import DarkModeButton from './DarkModeButton.svelte';
   import dpLogoDark from 'images/dpLogoBlack.svg';
   import dpLogoWhite from 'images/dpLogoWhite.svg';
+  import DiGithub from 'svelte-icons/di/DiGithub.svelte';
   let src = dpLogoDark;
   export let segment: string;
   function changeLogo(theme) {
@@ -57,6 +58,10 @@
     </li>
   </ul>
   <DarkModeButton on:message={handleThemeChange} on:click={changeLogo} />
+  <div class="linkImg">
+    <a style="color: var(--text)" href="https://github.com/Dont-Panic-LUC/Dont-Panic-LUC.github.io"><DiGithub/></a>
+  </div>
+
 </nav>
 
 <style>
@@ -122,6 +127,11 @@
   img {
     height: 1.5em;
     width: 1.5em;
+    margin-left: 1em;
+  }
+  .linkImg {
+    height: 2.5em;
+    width: 2.5em;
     margin-left: 1em;
   }
 
