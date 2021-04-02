@@ -36,7 +36,11 @@
         {/if}
         <div class="card-content">
           <div class="card-top">
-            <p>{dayjs(e.date).format('MMM DD, hh:mma')}</p>
+            {#if e.date === 'TBD' || e.date === 'Upcoming'}
+              <p>Exact Time Forthcoming</p>
+              {:else if e.date}
+              <p>{dayjs(e.date).format('MMM DD, hh:mma')}</p>
+            {/if}
             <h2>{e.title}</h2>
           </div>
           {@html e.html}

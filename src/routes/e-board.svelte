@@ -1,6 +1,5 @@
 <script>
   import Teammate from '../components/Teammate.svelte';
-  import TeamateApply from '../components/TeamateApply.svelte';
 </script>
 
 <svelte:head>

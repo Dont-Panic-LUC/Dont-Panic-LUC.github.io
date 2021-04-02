@@ -3,23 +3,33 @@
   import dpLogoDark from 'images/dpLogoBlack.svg';
   import dpLogoWhite from 'images/dpLogoWhite.svg';
   import DiGithub from 'svelte-icons/di/DiGithub.svelte';
-  let src = dpLogoDark;
+  import { createEventDispatcher } from 'svelte';
+  const dispatch = createEventDispatcher();
+
+
   export let segment: string;
-  function changeLogo(theme) {
+  let src: string;
+  function changeLogo(theme: string) {
     if (theme === 'dark') {
       src = dpLogoWhite;
-    } else if (theme === 'light') {
+    } else if (theme === 'bright') {
       src = dpLogoDark;
     }
   }
-  function handleThemeChange(event) {
+
+  function handleThemeChange(event: any) {
+    // console.log(typeof event);
     changeLogo(event.detail.theme);
+    // handDownTheme(event.detail.theme);
+    dispatch('message', {
+      theme: event.detail.theme,
+    });
   }
 </script>
 
 <nav>
   <a class="logo-link" href=".">
-    <img alt="logo" {src} />
+    <img {src} alt="logo">
   </a>
   <ul>
     <li>
@@ -57,7 +67,7 @@
       >
     </li>
   </ul>
-  <DarkModeButton on:message={handleThemeChange} on:click={changeLogo} />
+  <DarkModeButton on:message={handleThemeChange}/>
   <div class="linkImg">
     <a style="color: var(--text)" href="https://github.com/Dont-Panic-LUC/Dont-Panic-LUC.github.io"><DiGithub/></a>
   </div>

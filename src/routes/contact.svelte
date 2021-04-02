@@ -1,5 +1,11 @@
-<script>
+<script lang="ts">
   import DiscordLink from '../components/DiscordLink.svelte';
+
+  import { getContext } from 'svelte'
+
+  const theme$: any = getContext('theme')
+
+  $: theme = $theme$
 </script>
 
 <svelte:head>
@@ -19,7 +25,7 @@
   </p>
 </section>
 
-<DiscordLink />
+<DiscordLink theme={theme}/>
 
 <style>
   section {

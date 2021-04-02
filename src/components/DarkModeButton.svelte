@@ -32,7 +32,7 @@
   };
 
   // ts-lint was freaking out, so this "_" argument is just to make that go away
-  const checkTheme = (_) => {
+  const checkTheme = (_: any) => {
     const storedTheme = getStoredTheme();
 
     if (storedTheme === 'light') setLightTheme();

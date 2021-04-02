@@ -1,5 +1,6 @@
 {
   "name": "dont-panic-luc",
+  "license": "MIT",
   "description": "Website for Don't Panic! CS",
   "version": "0.0.1",
   "scripts": {

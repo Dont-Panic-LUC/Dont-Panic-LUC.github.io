@@ -1,21 +1,6 @@
 <!--So heres my hack implementation. -->
 <script lang="ts">
-  import { afterUpdate, beforeUpdate, createEventDispatcher } from 'svelte';
-  import { onMount, onDestroy } from 'svelte';
-  const dispatch = createEventDispatcher();
-  let theme;
-  const checkTheme = () => {
-    if (document.body.classList.contains('light')) {
-      theme = 'light';
-    }
-    if (document.body.classList.contains('dark')) {
-      theme = 'dark';
-    }
-    console.log(theme);
-  };
-  onMount(async () => {
-    checkTheme();
-  });
+  export let theme: string;
 </script>
 
 <!--Discords Server Widget is funky because it loads it's own CSS variables, so when the document loads, any CSS rules you make are overruled.-->
