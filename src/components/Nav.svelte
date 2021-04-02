@@ -1,7 +1,7 @@
 <script lang="ts">
   import DarkModeButton from './DarkModeButton.svelte';
-  import dpLogoDark from 'images/dpLogoBlack.svg';
-  import dpLogoWhite from 'images/dpLogoWhite.svg';
+  import dpLogoDark from 'assets/logos/logo-black.svg';
+  import dpLogoWhite from 'assets/logos/logo-white.svg';
   import DiGithub from 'svelte-icons/di/DiGithub.svelte';
   import { createEventDispatcher } from 'svelte';
   const dispatch = createEventDispatcher();

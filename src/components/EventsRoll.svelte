@@ -29,7 +29,7 @@
         {#if e.image}
           <div class="card-image-container">
             <img
-              src={`content/events/${e.image}`}
+              src={`assets/content/events/${e.image}`}
               alt={`Banner for the event ${e.title}`}
             />
           </div>

@@ -20,7 +20,7 @@
     where we discuss anything and everything.
   </p>
   <img
-    src="content/miscImage/googlePassport.jpg"
+    src="assets/misc/googlePassport.jpg"
     alt="pic of us"
   />
 </section>
