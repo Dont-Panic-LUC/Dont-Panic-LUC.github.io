@@ -1,11 +1,13 @@
 <script lang="ts">
+
   import DiscordLink from '../components/DiscordLink.svelte';
 
-  import { getContext } from 'svelte'
+  import { getContext} from 'svelte'
 
   const theme$: any = getContext('theme')
 
   $: theme = $theme$
+  console.log("Theme: " + theme);
 </script>
 
 <svelte:head>

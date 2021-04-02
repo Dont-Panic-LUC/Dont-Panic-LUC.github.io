@@ -5,7 +5,7 @@
   import Navbar from "../components/Navbar.svelte";
 
   export let segment: string;
-  export let theme: string;
+  let theme: string;
 
   function sendTheme(themeGiven: string) {
     theme = themeGiven;
@@ -16,8 +16,8 @@
   }
 
   onMount(() => {
-    if (document.body.classList.contains('bright')) {
-      theme = 'bright';
+    if (document.body.classList.contains('light')) {
+      theme = 'light';
     }
     else theme = 'dark';
   });
