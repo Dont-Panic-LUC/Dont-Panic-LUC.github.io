@@ -1,6 +1,6 @@
 <script lang="ts">
-    import dpLogoDark from 'images/dpLogoBlack.svg';
-    import dpLogoWhite from 'images/dpLogoWhite.svg';
+    import logoBlack from 'images/logoBlack.svg';
+  import logoWhite from 'images/logoWhite.svg';
     import DiGithub from 'svelte-icons/di/DiGithub.svelte';
 
     import {createEventDispatcher} from 'svelte';
@@ -14,17 +14,17 @@
 
     function changeLogo(theme: string) {
         if (theme === 'dark' || document.body.classList.contains('dark')) {
-            src = dpLogoWhite;
+            src = logoWhite;
         } else if (theme === 'bright' || document.body.classList.contains('bright')) {
-            src = dpLogoDark;
+            src = logoBlack;
         }
         else {
-            src = dpLogoDark;
+            src = logoBlack;
         }
     }
 
     function handleThemeChange(event: any) {
-        // console.log(typeof event);
+        // console.log(typeof event);e
         changeLogo(event.detail.theme);
         // handDownTheme(event.detail.theme);
         dispatch('message', {
@@ -73,9 +73,11 @@
             >
         </li>
     </ul>
-    <DarkModeButton on:message={handleThemeChange}/>
-    <div class="linkImg">
-        <a style="color: var(--text)" href="https://github.com/Dont-Panic-LUC/Dont-Panic-LUC.github.io"><DiGithub/></a>
+    <div id="right">
+        <DarkModeButton on:message={handleThemeChange}/>
+        <div class="linkImg">
+            <a style="color: var(--text)" href="https://github.com/Dont-Panic-LUC/Dont-Panic-LUC.github.io"><DiGithub/></a>
+        </div>
     </div>
 
 </nav>
@@ -163,5 +165,16 @@
             width: 1.25em;
             margin-left: 0.5em;
         }
+        .linkImg {
+            height: 2em;
+            width: 2em;
+            margin-left: 0.25em;
+        }
+    }
+
+    #right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 </style>

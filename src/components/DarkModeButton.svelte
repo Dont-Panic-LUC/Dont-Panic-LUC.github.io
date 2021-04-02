@@ -93,6 +93,9 @@
   }
 
   @media screen and (max-width: 600px) {
+    button {
+      padding: 0.75em 1em;
+    }
     button > div {
       height: 1.15rem;
       width: 1.15rem;
