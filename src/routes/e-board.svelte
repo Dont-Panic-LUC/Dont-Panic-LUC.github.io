@@ -15,14 +15,14 @@
     linkTitle="Click here to apply →"
   />
   <Teammate
-    src={'assets/eBoard/tien.jpg'}
+    src={'assets/e-board/tien.jpg'}
     role="President"
     name="Tien VoNguyen"
     link="https://www.linkedin.com/in/%E2%9C%A7-tien-v-358b09122/"
     linkTitle="LinkedIn →"
   />
   <Teammate
-    src="assets/eBoard/alex.jpg"
+    src="assets/e-board/alex.jpg"
     role="Vice President"
     name="Alex Rose"
     position="50% 60%"
@@ -30,7 +30,7 @@
     linkTitle="Portfolio →"
   />
   <Teammate
-    src="assets/eBoard/makenna.jpg"
+    src="assets/e-board/makenna.jpg"
     role="Treasurer"
     name="Makenna Walsh"
     position="50% 100%"
@@ -43,7 +43,7 @@
   <!--    name="Mohammed Rayyan Shaji"-->
   <!--  />-->
   <Teammate
-    src="assets/eBoard/henry.jpg"
+    src="assets/e-board/henry.jpg"
     role="Events Chair"
     name="Henry Fellerhoff"
     position="50% 65%"
@@ -51,7 +51,7 @@
     linkTitle="Portfolio →"
   />
   <Teammate
-    src="assets/eBoard/anran.png"
+    src="assets/e-board/anran.png"
     role="Head of Recruitment"
     name="Anran Wang"
     position="50% 45%"
@@ -59,7 +59,7 @@
     linkTitle="LinkedIn →"
   />
   <Teammate
-    src="assets/eBoard/iqra.jpg"
+    src="assets/e-board/iqra.jpg"
     role="CAN and ACM rep"
     name="Iqra Rehman"
     link="https://www.linkedin.com/in/iqra-rehman-b4225b184/"
