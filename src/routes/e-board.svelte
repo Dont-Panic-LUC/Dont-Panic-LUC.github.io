@@ -5,7 +5,7 @@
 <svelte:head>
   <title>E-Board</title>
 </svelte:head>
-
+<h3>* Subject to change, as The E-Board is in process of transitioning to Fall 2021 * </h3>
 <section>
   <Teammate
     src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fvignette1.wikia.nocookie.net%2Fcriminal-case-grimsborough%2Fimages%2F2%2F26%2FUnknown_Character.png%2Frevision%2Flatest%3Fcb%3D20141106142941&f=1&nofb=1"
@@ -68,6 +68,10 @@
 </section>
 
 <style>
+  h3 {
+    color: var(--text);
+    text-align: center;
+  }
   section {
     padding: 2em;
     display: grid;
