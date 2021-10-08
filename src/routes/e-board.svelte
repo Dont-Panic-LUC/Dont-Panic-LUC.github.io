@@ -14,56 +14,88 @@
     link="https://docs.google.com/forms/d/e/1FAIpQLSdEV5soG_fWijQtK8RBF5-23EPHdIfYOqzjZLnDAc-PQVnkoA/viewform"
     linkTitle="Click here to apply →"
   />
-  <Teammate
+  <!-- <Teammate
     src={'assets/e-board/tien.jpg'}
     role="President"
     name="Tien VoNguyen"
     link="https://www.linkedin.com/in/%E2%9C%A7-tien-v-358b09122/"
     linkTitle="LinkedIn →"
-  />
-  <Teammate
-    src="assets/e-board/alex.jpg"
-    role="Vice President"
-    name="Alex Rose"
-    position="50% 60%"
-    link="https://alex-rose.vercel.app/"
-    linkTitle="Portfolio →"
-  />
-  <Teammate
-    src="assets/e-board/makenna.jpg"
-    role="Treasurer"
-    name="Makenna Walsh"
-    position="50% 100%"
-    link="https://www.linkedin.com/in/makenna-walsh-b54b14127/"
-    linkTitle="LinkedIn →"
-  />
-  <!--  <Teammate-->
-  <!--    src="content/eBoard/Rayyan.jpg"-->
-  <!--    role="Lead Website Devoloper"-->
-  <!--    name="Mohammed Rayyan Shaji"-->
-  <!--  />-->
+  /> -->
   <Teammate
     src="assets/e-board/henry.jpg"
-    role="Events Chair"
+    role="President"
     name="Henry Fellerhoff"
     position="50% 65%"
     link="https://www.henryfellerhoff.com"
     linkTitle="Portfolio →"
   />
   <Teammate
+    src="assets/e-board/jess.jpg"
+    role="Vice President"
+    name="Jess Bajerek"
+    position="50% 60%"
+    link="#"
+    linkTitle=" →"
+  />
+  <Teammate
+    src="assets/e-board/alex.jpg"
+    role="Treasurer"
+    name="Alex Rose"
+    position="50% 60%"
+    link="https://alex-rose.vercel.app/"
+    linkTitle="Portfolio →"
+  />
+  <!-- <Teammate
+    src="assets/e-board/alex.jpg"
+    role="Vice President"
+    name="Alex Rose"
+    position="50% 60%"
+    link="https://alex-rose.vercel.app/"
+    linkTitle="Portfolio →"
+  /> -->
+  <!-- <Teammate
+    src="assets/e-board/makenna.jpg"
+    role="Treasurer"
+    name="Makenna Walsh"
+    position="50% 100%"
+    link="https://www.linkedin.com/in/makenna-walsh-b54b14127/"
+    linkTitle="LinkedIn →"
+  /> -->
+  <!--  <Teammate-->
+  <!--    src="content/eBoard/Rayyan.jpg"-->
+  <!--    role="Lead Website Devoloper"-->
+  <!--    name="Mohammed Rayyan Shaji"-->
+  <!--  />-->
+  <!-- <Teammate
+    src="assets/e-board/henry.jpg"
+    role="Events Chair"
+    name="Henry Fellerhoff"
+    position="50% 65%"
+    link="https://www.henryfellerhoff.com"
+    linkTitle="Portfolio →"
+  /> -->
+  <!-- <Teammate
     src="assets/e-board/anran.png"
     role="Head of Recruitment"
     name="Anran Wang"
     position="50% 45%"
     link="https://www.linkedin.com/in/anranwang4/"
     linkTitle="LinkedIn →"
-  />
+  /> -->
   <Teammate
     src="assets/e-board/iqra.jpg"
     role="CAN and ACM rep"
     name="Iqra Rehman"
     link="https://www.linkedin.com/in/iqra-rehman-b4225b184/"
     linkTitle="LinkedIn →"
+  />
+  <Teammate
+    src="assets/e-board/victor.jpg"
+    role="Lead Website Developer"
+    name="Victor Rakotondranoro"
+    position="50% 60%"
+    link="https://viciiiz.github.io"
+    linkTitle="Portfolio →"
   />
 </section>
 
