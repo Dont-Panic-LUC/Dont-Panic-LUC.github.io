@@ -14,6 +14,58 @@
     link="https://docs.google.com/forms/d/e/1FAIpQLSdEV5soG_fWijQtK8RBF5-23EPHdIfYOqzjZLnDAc-PQVnkoA/viewform"
     linkTitle="Click here to apply →"
   />
+  
+  <Teammate
+    src="assets/e-board/Julia.jpg"
+    role="President"
+    name="Julia Bennett"
+    position="50% 65%"
+    link=""
+    linkTitle="→"
+  />
+  
+  <Teammate
+    src="assets/e-board/Eno.jpg"
+    role="Treasurer"
+    name="Eno Dynowski"
+    position="50% 60%"
+    link=""
+    linkTitle="→"
+  />
+  
+  <Teammate
+    src="assets/e-board/Kenneth.jpg"
+    role="CAN and ACM rep"
+    name="Kenneth Hernandez"
+    link=""
+    linkTitle="→"
+  />
+
+  <Teammate
+    src="assets/e-board/Tamanna.jpg"
+    role="Head of Marketing"
+    name="Tamanna Miah"
+    link=""
+    linkTitle="→"
+  />
+
+  <Teammate
+    src="assets/e-board/Aaron.jpg"
+    role="Head of Recruitment"
+    name="Aaron Juco"
+    link=""
+    linkTitle="→"
+  />
+
+  <Teammate
+    src="assets/e-board/Victor-2.jpg"
+    role="Lead Website Developer"
+    name="Victor Rakotondranoro"
+    position="50% 60%"
+    link="https://viciiiz.github.io"
+    linkTitle="Portfolio →"
+  />
+
   <!-- <Teammate
     src={'assets/e-board/tien.jpg'}
     role="President"
@@ -21,30 +73,33 @@
     link="https://www.linkedin.com/in/%E2%9C%A7-tien-v-358b09122/"
     linkTitle="LinkedIn →"
   /> -->
-  <Teammate
+  <!-- <Teammate
     src="assets/e-board/henry.jpg"
     role="President"
     name="Henry Fellerhoff"
     position="50% 65%"
     link="https://www.henryfellerhoff.com"
     linkTitle="Portfolio →"
-  />
-  <Teammate
+  /> -->
+
+  <!-- <Teammate
     src="assets/e-board/jess.jpg"
     role="Vice President"
     name="Jess Bajerek"
     position="50% 60%"
     link="#"
     linkTitle=" →"
-  />
-  <Teammate
+  /> -->
+  
+  <!-- <Teammate
     src="assets/e-board/alex.jpg"
     role="Treasurer"
     name="Alex Rose"
     position="50% 60%"
     link="https://alex-rose.vercel.app/"
     linkTitle="Portfolio →"
-  />
+  /> -->
+
   <!-- <Teammate
     src="assets/e-board/alex.jpg"
     role="Vice President"
@@ -82,21 +137,12 @@
     link="https://www.linkedin.com/in/anranwang4/"
     linkTitle="LinkedIn →"
   /> -->
-  <Teammate
+  <!-- <Teammate
     src="assets/e-board/iqra.jpg"
     role="CAN and ACM rep"
     name="Iqra Rehman"
     link="https://www.linkedin.com/in/iqra-rehman-b4225b184/"
-    linkTitle="LinkedIn →"
-  />
-  <Teammate
-    src="assets/e-board/victor.jpg"
-    role="Lead Website Developer"
-    name="Victor Rakotondranoro"
-    position="50% 60%"
-    link="https://viciiiz.github.io"
-    linkTitle="Portfolio →"
-  />
+    linkTitle="LinkedIn →" -->
 </section>
 
 <style>
