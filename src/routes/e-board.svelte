@@ -37,7 +37,7 @@
   <Teammate
     src="assets/e-board/Tristian.jpeg"
     role="Treasurer"
-    name="Tristian"
+    name="Tristian TunaFish"
     position="50% 60%"
     link=""
     linkTitle="→"
