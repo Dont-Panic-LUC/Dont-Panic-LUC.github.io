@@ -35,7 +35,7 @@
   />
 
   <Teammate
-    src="assets/e-board/Tristan.jpeg"
+    src="assets/e-board/Tristian.jpeg"
     role="Treasurer"
     name="Tristian Truong"
     position="50% 60%"
