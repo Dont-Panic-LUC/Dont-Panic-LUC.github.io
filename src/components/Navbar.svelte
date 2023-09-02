@@ -68,6 +68,14 @@
             <a
                     class="link"
                     rel="prefetch"
+                    aria-current={segment === 'professors' ? 'page' : undefined}
+                    href="events">Professors</a
+            >
+        </li>
+        <li>
+            <a
+                    class="link"
+                    rel="prefetch"
                     aria-current={segment === 'e-board' ? 'page' : undefined}
                     href="e-board">E-Board</a
             >
