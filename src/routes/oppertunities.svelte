@@ -9,7 +9,7 @@
   </script>
   
   <script lang="ts">
-    import OppertunitiesCom from '../../components/OppertunitiesCom.svelte';
+    import OppertunitiesCom from '../components/OppertunitiesCom.svelte';
   
     export let oppertunities: {
       title: string;
@@ -28,7 +28,7 @@
     <div id="spacer" />
     <OppertunitiesCom {oppertunities} isPast title="Past Events" />
   </div>
-  
+  <div>TESTING</div>
   <style>
     #container {
       padding: 2em;
