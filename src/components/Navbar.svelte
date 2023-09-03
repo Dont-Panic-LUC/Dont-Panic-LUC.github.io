@@ -69,7 +69,7 @@
                     class="link"
                     rel="prefetch"
                     aria-current={segment === 'oppertunities' ? 'page' : undefined}
-                    href="events">Oppertunities</a
+                    href="oppertunities">Oppertunities</a
             >
         </li>
         <li>
@@ -77,7 +77,7 @@
                     class="link"
                     rel="prefetch"
                     aria-current={segment === 'professors' ? 'page' : undefined}
-                    href="events">Professors</a
+                    href="professors">Professors</a
             >
         </li>
         <li>
@@ -85,7 +85,7 @@
                     class="link"
                     rel="prefetch"
                     aria-current={segment === 'alumni' ? 'page' : undefined}
-                    href="events">Alumni</a
+                    href="alumni">Alumni</a
             >
         </li>
         <li>
