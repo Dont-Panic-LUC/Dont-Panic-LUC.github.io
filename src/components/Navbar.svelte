@@ -84,8 +84,8 @@
             <a
                     class="link"
                     rel="prefetch"
-                    aria-current={segment === 'blog' ? 'page' : undefined}
-                    href="events">Blog</a
+                    aria-current={segment === 'alumni' ? 'page' : undefined}
+                    href="events">Alumni</a
             >
         </li>
         <li>
