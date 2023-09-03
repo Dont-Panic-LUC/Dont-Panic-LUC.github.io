@@ -9,7 +9,7 @@
   </script>
   
   <script lang="ts">
-    import OppertunitiesCom from '../components/OppertunitiesCom.svelte';
+    import OppertunitiesCom from '../../components/OppertunitiesCom.svelte';
   
     export let oppertunities: {
       title: string;
