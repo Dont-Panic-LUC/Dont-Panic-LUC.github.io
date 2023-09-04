@@ -8,8 +8,10 @@
   }
 </script>
 
+<h1>Oppertunities</h1>
+
 <script lang="ts">
-  import EventsRoll from '../components/EventsRoll.svelte';
+  import EventsRoll from '../components/OppertunitiesCom.svelte';
 
   export let events: {
     title: string;
@@ -45,6 +47,6 @@
 
 </style>
   
-<h1>Oppertunities</h1>
+
 
 
