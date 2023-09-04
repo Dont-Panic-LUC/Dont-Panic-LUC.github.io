@@ -8,7 +8,7 @@
       html: any;
     }[];
   
-    export let title: string = 'Upcoming Events';
+    export let title: string = 'Upcoming Oppertunities';
     export let isPast: boolean = false;
   
     const today = new Date().toISOString();
