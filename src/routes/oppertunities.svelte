@@ -1,6 +1,6 @@
-<script>
+<!-- <script>
 	import Opps from '../src/routes/oppertunities.svelte';
-</script>
+</script> -->
   
 <h1>Oppertunities</h1>
 
