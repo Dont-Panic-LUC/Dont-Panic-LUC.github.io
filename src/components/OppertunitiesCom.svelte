@@ -1,27 +1,27 @@
 <script lang="ts">
     import dayjs from 'dayjs';
   
-    export let oppertunities: {
+    export let events: {
       title: string;
       image: string;
       date: string;
       html: any;
     }[];
   
-    export let title: string = 'Upcoming Oppertunites';
+    export let title: string = 'Upcoming Events';
     export let isPast: boolean = false;
   
     const today = new Date().toISOString();
   
-    const sortedEvents = oppertunities
+    const sortedEvents = events
       .filter((e) => (isPast ? e.date < today : e.date >= today))
       .sort((a, b) => {
         if (a.date < b.date) return 1;
         else return -1;
       });
   </script>
-
-<div id="container">
+  
+  <div id="container">
     <h1>{title}</h1>
     <div class="card-container">
       {#each sortedEvents as e}
@@ -120,3 +120,4 @@
       }
     }
   </style>
+  
