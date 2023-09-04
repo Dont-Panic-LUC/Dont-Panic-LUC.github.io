@@ -25,9 +25,9 @@ const getEvent = (event) => {
 };
 
 const getAllEvents = () =>
-  fs.readdirSync('content/events').map((fileName) => {
+  fs.readdirSync('content/opps').map((fileName) => {
     const event = fs.readFileSync(
-      path.resolve('content/events', fileName),
+      path.resolve('content/opps', fileName),
       'utf-8'
     );
     return getEvent(event);

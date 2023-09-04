@@ -68,8 +68,8 @@
             <a
                     class="link"
                     rel="prefetch"
-                    aria-current={segment === 'oppertunities' ? 'page' : undefined}
-                    href="oppertunities">Oppertunities</a
+                    aria-current={segment === 'opps' ? 'page' : undefined}
+                    href="opps">Oppertunities</a
             >
         </li>
         <li>
