@@ -11,7 +11,7 @@
 <h1>Oppertunities</h1>
 
 <script lang="ts">
-  import EventsRoll from '../components/OppertunitiesCom.svelte';
+  import EventsRoll from '../../components/OppertunitiesCom.svelte';
 
   export let events: {
     title: string;
@@ -28,7 +28,7 @@
 <div id="container">
   <EventsRoll {events} />
   <div id="spacer" />
-  <EventsRoll {events} isPast title="Past Events" />
+  <EventsRoll {events} isPast title="Past Oppertunities" />
 </div>
 
 <style>
