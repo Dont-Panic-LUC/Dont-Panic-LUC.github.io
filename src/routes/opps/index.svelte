@@ -1,6 +1,6 @@
 <script context="module" lang="ts">
   export function preload() {
-    return this.fetch(`events.json`)
+    return this.fetch(`opps.json`)
       .then((r: { json: () => any }) => r.json())
       .then((events: { slug: string; title: string; html: any }[]) => {
         return { events };
