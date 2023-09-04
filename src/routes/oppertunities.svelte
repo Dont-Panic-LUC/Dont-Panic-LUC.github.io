@@ -1,5 +1,12 @@
 <script>
-	let name = 'world';
+	import Opps from '../src/routes/oppertunities.svelte';
 </script>
   
-<h1>Hello World!</h1>
+<h1>Oppertunities</h1>
+
+<style>
+  h1 {
+    text-align: center;
+    color: var(--primary);
+  }
+</style>

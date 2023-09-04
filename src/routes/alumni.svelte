@@ -2,4 +2,12 @@
 	let name = 'world';
 </script>
 
-<h1>Alumni page under construction!</h1>
+<h1>Alumni</h1>
+<h2>And it was a Yelloww!!</h2>
+
+<style>
+      h1 {
+    text-align: center;
+    color: var(--primary);
+  }
+</style>
