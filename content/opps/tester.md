@@ -1,7 +1,7 @@
 ---
-title: 'Kickoff Game Night'
-date: 2021-01-28T02:00:00.000Z
-image: 2021-01-kickoff-game-night.png
+title: 'Fall Part-Time Job/Internship Fair'
+date: 2023-09-06T16:00:00.000Z
+image: 2023_orgfair.png
 ---
 
-Mark your calendars for Wednesday at 8pm for a Don't Panic! semester kick off! We'll be hanging out and playing some games on backyard.co, so swing on by if you can!
+The Job, Internship and Service Fair gives Loyola students of all levels and majors an opportunity to explore a variety of opportunities both on and off campus. We anticipate hosting a variety of organizations from the non-profit sector (secular and religious), regional companies and Loyola departments for part time, internship, federal work study, service learning and volunteer opportunities.
