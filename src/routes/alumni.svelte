@@ -3,7 +3,7 @@
 </script>
 
 <h1>Alumni</h1>
-<h2>And it was a Yelloww!!</h2>
+<h2>And it was all Yelloww!!</h2>
 
 <style>
       h1 {
