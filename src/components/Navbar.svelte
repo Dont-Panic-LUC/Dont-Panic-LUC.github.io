@@ -72,7 +72,7 @@
                     href="opps">Oppertunities</a
             >
         </li>
-        <li>
+        <!-- <li>
             <a
                     class="link"
                     rel="prefetch"
@@ -87,7 +87,7 @@
                     aria-current={segment === 'alumni' ? 'page' : undefined}
                     href="alumni">Alumni</a
             >
-        </li>
+        </li> -->
         <li>
             <a
                     class="link"
